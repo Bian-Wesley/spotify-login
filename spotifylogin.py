@@ -23,7 +23,7 @@ humanType("your username", email)
 sleep(2)
 
 password = browser.find_element(By.ID, "login-password")
-humanType(account[1], password)
+humanType("your password", password)
 sleep(2)
 
 loginButton = browser.find_element(By.ID, "login-button")
