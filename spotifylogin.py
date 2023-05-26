@@ -13,8 +13,7 @@ def humanType(string, element):
 		randWait = random.randint(10, 500) / 1000
 		sleep(randWait)
 
-#browser = webdriver.Chrome("chromedriver")
-browser = webdriver.Edge(r"C:\Users\wesle\spotify\msedgedriver.exe")
+browser = webdriver.Edge(r"path to webdriver")
 browser.maximize_window()
 browser.get("https://accounts.spotify.com/en/login?continue=https:%2F%2Fopen.spotify.com%2F")
 
